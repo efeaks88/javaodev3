@@ -1,0 +1,18 @@
+package giris;
+
+import java.util.Scanner;
+
+public class pisagor {
+    public static void main(String[] args) {
+        Scanner sayi=new Scanner(System.in);
+        int a,b;
+        double c;
+        System.out.println("kenar giriniz: ");
+        a= sayi.nextInt();
+        System.out.println("diğer kenari giriniz");
+        b=sayi.nextInt();
+
+        c=Math.sqrt((a*a)+(b*b));
+        System.out.println("Hipotenüs: "+ c);
+    }
+}
